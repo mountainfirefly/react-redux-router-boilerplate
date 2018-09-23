@@ -6,11 +6,13 @@
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mountainfirefly/react-boilerplate.git"
+    "url": "git+https://github.com/mountainfirefly/react-redux-router-boilerplate.git"
   },
   "keywords": [
     "javascript",
@@ -23,9 +25,9 @@
   "author": "mountainfirefly <pankajdcoder@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mountainfirefly/react-boilerplate/issues"
+    "url": "https://github.com/mountainfirefly/react-redux-router-boilerplate/issues"
   },
-  "homepage": "https://github.com/mountainfirefly/react-boilerplate#readme",
+  "homepage": "https://mountainfirefly.github.com/react-redux-router-boilerplate",
   "dependencies": {
     "react": "16.5.2",
     "react-dom": "16.5.2",
@@ -39,6 +41,7 @@
     "@babel/preset-react": "7.0.0",
     "babel-loader": "8.0.2",
     "css-loader": "1.0.0",
+    "gh-pages": "2.0.0",
     "html-webpack-plugin": "3.2.0",
     "style-loader": "0.23.0",
     "webpack": "4.19.1",
