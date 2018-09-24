@@ -8,3 +8,4 @@ npm install
 npm run start
 ```
 
+Checkout the demo here http://white-push.surge.sh/.
