@@ -27,7 +27,7 @@
   "bugs": {
     "url": "https://github.com/mountainfirefly/react-redux-router-boilerplate/issues"
   },
-  "homepage": "https://mountainfirefly.github.com/react-redux-router-boilerplate",
+  "homepage": "https://mountainfirefly.github.io/react-redux-router-boilerplate/",
   "dependencies": {
     "react": "16.5.2",
     "react-dom": "16.5.2",
